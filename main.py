@@ -37,10 +37,10 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # متغیرهای محیطی
-BOT_TOKEN = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8793482183:AAEGUa7ZEURP26N34DzKvrudnndC3q7apBk")
 DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://user:pass@localhost:5432/xray")
 REDIS_URL = os.getenv("REDIS_URL", "redis://localhost:6379")
-ADMIN_IDS = [int(id) for id in os.getenv("ADMIN_IDS", "123456789").split(",")]
+ADMIN_IDS = [int(id) for id in os.getenv("ADMIN_IDS", "8680457924").split(",")]
 XRAY_GRPC_ADDR = os.getenv("XRAY_GRPC_ADDR", "localhost:9000")
 ENCRYPT_KEY = os.getenv("ENCRYPT_KEY", Fernet.generate_key())
 
