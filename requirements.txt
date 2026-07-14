@@ -1,0 +1,13 @@
+python-telegram-bot==20.7
+asyncpg==0.29.0
+redis==5.0.1
+grpcio==1.59.0
+qrcode==7.4.2
+cryptography==41.0.7
+aiohttp==3.9.1
+pandas==2.1.4
+matplotlib==3.8.2
+seaborn==0.13.0
+python-dotenv==1.0.0
+Pillow==10.1.0
+requests==2.31.0
